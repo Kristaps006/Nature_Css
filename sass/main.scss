@@ -1,3 +1,6 @@
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
 *,
 *::after,
 *::before {
@@ -29,8 +32,8 @@ body {
       linear,
       left top,
       right bottom,
-      from(rgba(85, 197, 122, 0.8)),
-      to(rgba(40, 180, 133, 0.8))
+      from(rgba($color-primary-light, 0.8)),
+      to(rgba($color-primary-dark, 0.8))
     ),
     url(../img/hero.jpg);
   background-image: linear-gradient(
